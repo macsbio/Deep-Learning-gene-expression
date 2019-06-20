@@ -2,8 +2,10 @@
 
 Predicting gene expression patterns across different domains:
 Predicting time series of human in vitro and rat in vivo gene expressing given a measured time series of rat in vitro gene expression following exposure to a previously unseen compound. 
+
 Multiple deep learning appraoched (Convolutional Neural Network, A bottleneck Artificial Neural Network with bottleneck architecutre, and a Modifed Autoencoder approach) are compared to traditional machine learning techniques (k-Nearest Neighbours, random regression forest) in predicting gene expression patterns acros domains. 
-A convolutional neural network, and two artifical neural networks with a bottleneck architecture are implemented using Keras.K-nearest neighbours and random regression forest are implemented using sklearn. Scripts to read and parse the time series of gene expression data are also supplied. Time series of rat in vitro, human in vitro, and rat in vivo micro-array gene expression data from Open TG-GATEs, a large publically avaliable toxicogenomics data base, are used to generate machine learning examples. 
+The deep learning models are implemented using Keras. Tranditional machine learning models have been implemented using sklearn. Scripts to read and parse the time series of gene expression data are also supplied. Time series of rat in vitro, human in vitro, and rat in vivo micro-array gene expression data from Open TG-GATEs, a large publically avaliable toxicogenomics data base, are used to generate machine learning examples.
+
 This project is the code refernced to in "Use of deep learning methods to translate drug-induced gene expression changes from rat to human primary hepatocyte exposed in vitro and in vivo" by 
 Shauna O’Donovan, Kurt Driessens, Daniel Lopatta, Florian Wimmenauer, Alexander Lukas, Jelmer Neeven, Tobias Stumm, Evgueni Smirnov, Michael Lenz, Gokhan Ertaylan, Danyel Jennen, Natal van Riel, Rachel Cavill, Ralf Peeters, Theo de Kok.
 
