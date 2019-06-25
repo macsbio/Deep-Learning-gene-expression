@@ -2,10 +2,10 @@ import pickle
 import numpy as np
 import Types
 
-# Dan: this file is useful for investigating pickle files (e.g. data_X20_1.p)
+#this file is useful for investigating pickle files (e.g. data_X20_1.p)
 
-filename2 = "/Users/Daniel/Desktop/data_X65_1_nest.p"
-filename3 = "/Users/Daniel/Desktop/data_X79_1_nest.p"
+filename2 = "/data_1.p"
+filename3 = "/data_2.p"
 
 infile = open(filename2,'rb')
 expr,compounds,genes,variances = pickle.load(infile)
