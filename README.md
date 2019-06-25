@@ -24,7 +24,7 @@ The micro-array data has been pre-processed using Affymetrix Power Tools using t
 
 data[gene][compound][dosage][replicate][time]
 
-     name  index     index   index      index
+Where genes are indicated by name (gene symbol). Compound, dosage, replicate, and time can be indicated by index.
 
 Train models using provided toxicologicaly relevent gene sets (i.e. NAFLD, STEATOSIS etc.):
 -	Call file PredictEncoding_preselected.py from job script
