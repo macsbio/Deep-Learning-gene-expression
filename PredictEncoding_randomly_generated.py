@@ -482,8 +482,8 @@ def main():
             - change domain name if desired
             """
             #import gene set 
-            file1 = "Data_DeepLearning_Genes/RatInVitro/%d"%(k) + "/Nested/Random%d"%(k) + "/data_X%d"%(k) + "_%d"%(i) + "_nest.p"
-            file2 = "Data_DeepLearning_Genes/HumanInVitro/%d"%(k) + "/Nested/Random%d"%(k) + "/data_%d"%(k) + "_%d"%(i) + "_human_nest.p"
+            file1 = "Data/RatInVitro/%d"%(k) + "/Nested/Random%d"%(k) + "/data_X%d"%(k) + "_%d"%(i) + "_nest.p"
+            file2 = "Data/HumanInVitro/%d"%(k) + "/Nested/Random%d"%(k) + "/data_%d"%(k) + "_%d"%(i) + "_human_nest.p"
             print(file1)
             print(file2)
 
