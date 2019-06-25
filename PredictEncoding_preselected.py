@@ -25,7 +25,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import MultiTaskElasticNet
 from sklearn.neighbors import KNeighborsRegressor
 
-# Dan: --------------------------------- scroll down to bottom ---------------------------------
+#--------------------------------- scroll down to bottom ---------------------------------
 
 def cnn_model(x_train, x_valid, y_train, y_valid, norms_X, norms_Y):
     """A Convolutional Neural Network consisting of three coupled convolutional and maxpooling layers and one Dense layer, with data preprocessing like in the Autoencoders."""
