@@ -20,7 +20,10 @@ Sample data files can be downloaded from the following link.
 https://surfdrive.surf.nl/files/index.php/s/dyVphSI1xXS8Zxi
 
 This folder contains three files containing processed rat in vitro, human in vitro, and rat in vivo gene expression data obtained from open TG-GATEs [1]. The original raw data micro-array data can be downloaded in the form of CEL files from https://toxico.nibiohn.go.jp.
-The micro-array data has been pre-processed using Affymetrix Power Tools using the robust multi-array average normalisation method and stored in the form of pickle files.  
+The micro-array data has been pre-processed using Affymetrix Power Tools using the robust multi-array average normalisation method and stored in the form of pickle files as follows:
+
+data[gene][compound][dosage][replicate][time]
+     name  index     index   index      index
 
 Train models using provided toxicologicaly relevent gene sets (i.e. NAFLD, STEATOSIS etc.):
 -	Call file PredictEncoding_preselected.py from job script
